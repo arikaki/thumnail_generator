@@ -1,0 +1,36 @@
+# Local Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Ignore Terraform variables file with sensitive information
+terraform.tfvars
+*.tfvars
+
+# Ignore override files as they are usually used to override configuration for local development
+*.override.tf
+*.override.tf.json
+
+# Ignore the Terraform provider lock file (specific to a local environment)
+.terraform.lock.hcl
+
+# Ignore local .terraform directories
+.terraform/
+
+# Ignore any auto-generated plan files
+*.tfplan
+
+# Ignore .DS_Store (macOS specific metadata files)
+.DS_Store
+
+# Ignore backup files created by editors or IDEs
+*~
+*.swp
+*.bak
+*.tmp
+
+# Ignore log files
+*.log
+
